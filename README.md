@@ -1,1 +1,0 @@
-# FrontendPractice-Movieapp
