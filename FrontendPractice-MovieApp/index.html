@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp</title>  
+    <link rel="stylesheet" href="main-nav.css"> 
+    <link rel="stylesheet" href="how-it-works.css">
+    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="plans.css">
+    <link rel="stylesheet" href="back-to-up.css">
+    <script src="https://kit.fontawesome.com/eb5757e4e0.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+        }
+
+    </style>
+
+<body id="body">
+
+    <header class="main-header">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">Movies</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Series</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="showcase">
+            <div class="content">
+                <h1 id="showcase_welcome">Welcome to the MovieApp</h1>
+                <h2>Hundreds of movies, TV shows and people to discover.</h2>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <div class="row">
+                <h2>How it works?</h2>
+                <p>We will show you step by step how to start watching your favorite movies & tv shows starting now!</p>
+            </div>
+
+            <div class="row">
+                <div class="icon-box col">
+                    <i class="fas fa-sign-in-alt fa-3x"></i>
+                    <h3>Register</h3>
+                    <p>Create your account with your mail adress.Create your account with your mail adress.Create your account with your mail adress.</p>
+                </div>
+                <div class="icon-box col">
+                    <i class="fa-brands fa-buffer fa-3x"></i>
+                    <h3>Choose a Plan</h3>
+                    <p>Checks for the best plan that suits you.Checks for the best plan that suits you.Checks for the best plan that suits you.</p>
+                </div>
+                <div class="icon-box col">
+                    <i class="fa-solid fa-face-smile-beam fa-3x"></i>
+                    <h3>Enjoy Movies</h3>
+                    <p>Enjoy the most popular and new movies & and series just now.Enjoy the most popular and new movies & and series just now.</p>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="features__item" id="features__photo"></div><div class="features__item" id="features__state">
+                <h3 class="features__state__item features__state__header">Watch all Movies & TV Shows once they get released!</h3>
+                <p class="features__state__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla earum numquam blanditiis officia iste ad. Saepe sed molestiae veniam quo recusandae! Perspiciatis aperiam similique earum veniam tempore dignissimos corporis.</p>
+                <div class="features__state__item features__state__button">
+                    <a href="#" id="features__button">View Features</a>
+                </div>
+            </div>
+        </section>
+        <section id="plans">
+            <h2 class="plans-title">Become a Premium Member</h2>
+            <div class="plans_container clearfix">
+                <div class="plan-opt non-recommended_plan">
+                    <h3 class="plan-name">Free</h3>
+                    <h3>0/month</h3>
+                    <ul class="plan_list_t">
+                        <li class="free_list">HD available</li>
+                        <li class="free_list">Limited Movies and TV shows</li>
+                        <li class="free_list">Watch on your phone or tablet</li>
+                        <li class="free_list">First month free</li>
+                        <li class="free_list">Watch online</li>
+                        <li class="free_list">Screens you can watch </li>
+                    </ul>
+                    <a href="#" class="plan_button">Choose Plan</a>
+                </div>
+                <div class="plan-opt recommended_plan">
+                    <h3 class="plan_badge">Recommended</h3>
+                    <h3 class="plan-name plan_basic">Basic</h3>
+                    <h3>$9.99/Month</h3>
+                    <ul class="plan_list_t">
+                        <li class="free_list">HD available</li>
+                        <li class="free_list">Unlimited Movies and TV shows</li>
+                        <li class="free_list">Watch on your phone or tablet</li>
+                        <li class="free_list">First month free</li>
+                        <li class="free_list">Watch online</li>
+                        <li class="free_list">Screens you can watch </li>
+                    </ul>
+                    <a href="#" class="plan_button">Choose Plan</a>
+                </div>
+                <div class="plan-opt non-recommended_plan">
+                    <h3 class="plan-name">Premium</h3>
+                    <h3>$19.99/Month</h3>
+                    <ul class="plan_list_t">
+                        <li class="free_list">HD available</li>
+                        <li class="free_list">Unlimited Movies and TV shows</li>
+                        <li class="free_list">Watch on your phone or tablet</li>
+                        <li class="free_list">First month free</li>
+                        <li class="free_list">Watch online</li>
+                        <li class="free_list">Screens you can watch </li>
+                    </ul>
+                    <a href="#" class="plan_button">Choose Plan</a>
+                </div>
+            </div>
+        </section>
+        <a id="back-to-up" href="#body"> <i class="fa-solid fa-circle-chevron-up fa-3x"></i> </a>
+        <div style="margin: 40px;"> </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+#back-to-up{
+    position:fixed;
+    bottom: 20px;
+    right:10px;
+}
+#back-to-up i:hover{
+    color:#e47958;
+    cursor: pointer;
+    transition:color 0.4s;
+}
+

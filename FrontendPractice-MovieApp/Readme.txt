@@ -1,0 +1,1 @@
+This is my exercise project to implement my knowledge about html and css into practice.

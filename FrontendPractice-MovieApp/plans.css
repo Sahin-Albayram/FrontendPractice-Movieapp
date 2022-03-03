@@ -1,0 +1,77 @@
+.plans-title{
+    text-align: center;
+
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear: both;
+}
+.plan-name{
+    font-weight: 600;
+}
+.plans{
+    text-align: center;
+}
+.plan_badge{
+    background: #fff;
+    color:#FC997C;
+    padding:8px;
+    border-radius: 5px;
+}
+.plans_container{
+    text-align:center;
+    
+}
+.plan_list_t{
+    padding:0;
+}
+.plan-opt{
+    font-size: 19px;
+    display: inline-block;
+    background-color:#dbecff;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    margin:8px;
+    padding:16px;
+    width: 30%;
+}
+.plan_button{
+    border:2px solid #FC997C;
+    border-radius: 8px;
+    background-color: #FC997C;
+    padding:6px 18px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.6s;
+    transition: padding 0.4s;
+}
+.plan_button:hover{
+    cursor: pointer;
+    border:2px solid #FC997C;
+    padding:10px 24px;
+    border-radius: 8px;
+    color: #FC997C;
+    background-color:#fff;
+}
+.free_list{
+    list-style: none;
+}
+.recommended_plan{
+    background-color:#2E4C6D;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #fff;
+    transition: box-shadow 0.6s;
+}
+.recommended_plan:hover{
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 54px 55px, rgba(0, 0, 0, 0.24) 0px -12px 30px, rgba(0, 0, 0, 0.24) 0px 4px 6px, rgba(0, 0, 0, 0.34) 0px 12px 13px, rgba(0, 0, 0, 0.18) 0px -3px 5px;
+}
+.non-recommended_plan{
+    box-shadow: 10px 15px 15px 5px rgba(100, 100, 111, 0.2);
+    transition: box-shadow .6s;
+}
+.non-recommended_plan:hover{
+    box-shadow: 10px 15px 15px 5px rgba(100, 100, 111, 0.5);;
+}
